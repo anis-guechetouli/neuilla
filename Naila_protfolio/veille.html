@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Veille Technologique — Biotechnologie &amp; Informatique | Hasnaoui Naila</title>
+        <meta
+            name="description"
+            content="Veille technologique de Naila Hasnaoui — BTS SIO SISR. Biotechnologie, bioinformatique, IA médicale et innovations à l'intersection du vivant et du numérique."/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;600;700&display=swap"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css?v=20260509"/>
+    </head>
+    <body>
+        <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+        <div class="bg-grid" aria-hidden="true"></div>
+
+        <header class="site-header">
+            <div class="container nav-wrap">
+                <a href="index.html#home" class="brand">
+                    <span class="brand-mark">NH</span>
+                    <span class="brand-text">Hasnaoui Naila</span>
+                </a>
+                <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">Menu</button>
+                <nav class="nav" id="siteNav">
+                    <a href="#sujet">Sujet</a>
+                    <a href="#galerie">Galerie</a>
+                    <a href="#articles">Articles</a>
+                    <a href="#tendances">Tendances</a>
+                    <a href="#sources">Sources</a>
+                    <a href="e5.html">E5</a>
+                    <a href="e6.html">E6</a>
+                    <a href="index.html">Portfolio</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <!-- ── Hero ── -->
+            <section class="hero container reveal subpage-hero">
+                <p class="eyebrow">BTS SIO SISR — Veille technologique</p>
+                <h1>Biotechnologie &amp; Informatique</h1>
+                <p class="lead">
+                    À la croisée du vivant et du numérique — suivi des avancées en bioinformatique,
+                    intelligence artificielle médicale, génomique et technologies du futur qui
+                    transforment la santé et les sciences du vivant.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#articles">Voir les articles</a>
+                    <a class="btn btn-ghost" href="#galerie">Galerie</a>
+                    <a class="btn btn-ghost" href="index.html">Retour portfolio</a>
+                </div>
+                <div class="hero-meta">
+                    <span class="status-dot">Mise à jour 2025 – 2026</span>
+                    <span class="status-dot">Bioinformatique &amp; IA médicale</span>
+                    <span class="status-dot">CRISPR · Génomique · Santé numérique</span>
+                </div>
+            </section>
+
+            <!-- ── Présentation du sujet ── -->
+            <section id="sujet" class="section container reveal">
+                <div class="section-head">
+                    <h2>Présentation du sujet</h2>
+                </div>
+
+                <div class="grid two-cols">
+                    <article class="card">
+                        <h3>Pourquoi ce sujet ?</h3>
+                        <p>
+                            La biotechnologie informatique — ou <strong>bioinformatique</strong> — représente l'une
+                            des révolutions scientifiques les plus importantes du XXIe siècle. L'informatique
+                            est devenue indispensable pour analyser des données biologiques massives :
+                            séquençage du génome humain, modélisation de protéines, IA pour le diagnostic médical.
+                        </p>
+                        <p style="margin-top:0.7rem;">
+                            En tant qu'étudiante en BTS SIO, je m'intéresse particulièrement à la façon dont
+                            les systèmes informatiques sécurisent, stockent et traitent les données de santé
+                            — un enjeu critique à l'intersection de mes domaines d'études.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Méthode de veille</h3>
+                        <ul>
+                            <li>Lecture hebdomadaire de revues scientifiques (Nature, Science, Cell)</li>
+                            <li>Suivi des publications de l'INSERM et du CNRS</li>
+                            <li>Newsletters spécialisées (MIT Technology Review, Futura Sciences)</li>
+                            <li>Veille sur les bases de données génomiques (NCBI, UniProt)</li>
+                            <li>Suivi des startups biotech françaises (BPI France, FranceGenomique)</li>
+                            <li>Podcasts scientifiques : "La méthode scientifique" (France Culture)</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <!-- Domaines couverts -->
+                <div class="cyber-domain-grid" style="margin-top: 1rem;">
+                    <article class="cyber-domain-card">
+                        <div class="cyber-icon">🧬</div>
+                        <h4>Génomique</h4>
+                        <p>Séquençage ADN, CRISPR, médecine personnalisée</p>
+                    </article>
+                    <article class="cyber-domain-card">
+                        <div class="cyber-icon">🤖</div>
+                        <h4>IA Médicale</h4>
+                        <p>Deep learning, diagnostic assisté, radiologie IA</p>
+                    </article>
+                    <article class="cyber-domain-card">
+                        <div class="cyber-icon">💊</div>
+                        <h4>Drug Discovery</h4>
+                        <p>Simulation moléculaire, criblage virtuel, AlphaFold</p>
+                    </article>
+                    <article class="cyber-domain-card">
+                        <div class="cyber-icon">📱</div>
+                        <h4>Santé numérique</h4>
+                        <p>Wearables, télémédecine, dossier patient numérique</p>
+                    </article>
+                    <article class="cyber-domain-card">
+                        <div class="cyber-icon">🔒</div>
+                        <h4>Sécurité des données</h4>
+                        <p>Données de santé, RGPD, hébergement HDS</p>
+                    </article>
+                    <article class="cyber-domain-card">
+                        <div class="cyber-icon">🧪</div>
+                        <h4>Bio-informatique</h4>
+                        <p>Analyse de séquences, Python/R, bases génomiques</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ── Galerie photos ── -->
+            <section id="galerie" class="section container reveal">
+                <div class="section-head section-head-inline">
+                    <h2>Galerie — Images &amp; ressources visuelles</h2>
+                </div>
+
+                <!-- Photo principale / mise en avant -->
+                <div class="gallery-feature">
+                    <!-- Remplace src par ton image : ex src="photos/biotech-principal.jpg" -->
+                    <img
+                        src="/photos/bachelor_parcours_3.png"
+                        alt="Biotechnologie — image principale"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                    />
+                    <div class="gallery-caption">
+                        <h4>Biotechnologie &amp; Informatique — Vue d'ensemble</h4>
+                        <p>L'alliance du numérique et des sciences du vivant ouvre des perspectives inédites pour la médecine et la recherche.</p>
+                    </div>
+                </div>
+
+                <!-- Grille de 6 photos -->
+                <div class="gallery-grid">
+
+                    <article class="gallery-item">
+                        <img src="photos/Principe de la thérapie génique par CRISPR sur l’exemple de la drépanocytose.png" alt="CRISPR-Cas9"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+                        <div class="gallery-placeholder" style="display:none;">
+                            <span>✂️</span>
+                            <p>CRISPR-Cas9<br/>Édition génomique</p>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>CRISPR-Cas9</h4>
+                            <p>Technologie d'édition du génome</p>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item">
+                        <img src="photos/AdobeStock_1023879568-scaled.jpeg" alt="IA médicale"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+                        <div class="gallery-placeholder" style="display:none;">
+                            <span>🩺</span>
+                            <p>IA Médicale<br/>Diagnostic assisté</p>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>IA &amp; Médecine</h4>
+                            <p>Diagnostic assisté par intelligence artificielle</p>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item">
+                        <img src="photos/Fig_FR_-paired-end-2-e1566225855737.jpg" alt="Séquençage ADN"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+                        <div class="gallery-placeholder" style="display:none;">
+                            <span>🔬</span>
+                            <p>Séquençage ADN<br/>Génomique</p>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>Séquençage ADN</h4>
+                            <p>Technologies Next Generation Sequencing</p>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item">
+                        <img src="photos/Q8W3K0.webp" alt="AlphaFold"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+                        <div class="gallery-placeholder" style="display:none;">
+                            <span>🧩</span>
+                            <p>AlphaFold<br/>Protéines 3D</p>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>AlphaFold — DeepMind</h4>
+                            <p>Prédiction de la structure des protéines</p>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item">
+                        <img src="photos/wearables-transforment-les-soins-de-sante-e1721204286796.webp" alt="Santé connectée"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+                        <div class="gallery-placeholder" style="display:none;">
+                            <span>⌚</span>
+                            <p>Santé connectée<br/>Wearables</p>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>Santé connectée</h4>
+                            <p>Capteurs biométriques et suivi en temps réel</p>
+                        </div>
+                    </article>
+
+                    <article class="gallery-item">
+                        <img src="photos/bioinformatique_datascientest2.webp" alt="Bioinformatique"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+                        <div class="gallery-placeholder" style="display:none;">
+                            <span>💻</span>
+                            <p>Bioinformatique<br/>Analyse de données</p>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>Bioinformatique</h4>
+                            <p>Analyse computationnelle des données biologiques</p>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p style="margin-top:0.85rem; font-size:0.82rem; color:var(--ink-soft); text-align:center;">
+                    💡 Pour ajouter tes propres photos — crée un dossier <code style="background:rgba(195,92,47,0.1); padding:0.1rem 0.4rem; border-radius:4px;">photos/</code> dans le projet et dépose tes images avec les noms indiqués.
+                </p>
+            </section>
+
+            <!-- ── Articles & actualités ── -->
+            <section id="articles" class="section container reveal">
+                <div class="section-head">
+                    <h2>Articles &amp; actualités suivis</h2>
+                </div>
+
+                <div class="actu-grid">
+
+                    <article class="actu-card">
+                        <div class="actu-icon">✂️</div>
+                        <div class="actu-body">
+                            <div class="source-badge">Nature · Janv. 2025</div>
+                            <h3>CRISPR 3.0 — Édition de base sans coupure double brin</h3>
+                            <p>
+                                La nouvelle génération d'outils CRISPR (base editing, prime editing) permet de corriger
+                                des mutations génétiques avec une précision inédite, sans introduire de cassures
+                                dans l'ADN. Des essais cliniques sont en cours pour la drépanocytose.
+                            </p>
+                            <div class="pill-wrap">
+                                <span class="pill">CRISPR</span>
+                                <span class="pill">Génomique</span>
+                                <span class="pill">Thérapie génique</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="actu-card">
+                        <div class="actu-icon">🤖</div>
+                        <div class="actu-body">
+                            <div class="source-badge">MIT Tech Review · Fév. 2025</div>
+                            <h3>AlphaFold 3 — L'IA prédit toutes les molécules du vivant</h3>
+                            <p>
+                                DeepMind a étendu AlphaFold 3 à toutes les molécules biologiques (ADN, ARN, petites
+                                molécules). Cette avancée révolutionne la découverte de médicaments en permettant
+                                de simuler les interactions moléculaires en quelques minutes.
+                            </p>
+                            <div class="pill-wrap">
+                                <span class="pill">AlphaFold</span>
+                                <span class="pill">Deep Learning</span>
+                                <span class="pill">Drug Discovery</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="actu-card">
+                        <div class="actu-icon">🧠</div>
+                        <div class="actu-body">
+                            <div class="source-badge">INSERM · Mars 2025</div>
+                            <h3>IA et cancer du sein — Dépistage plus précis que les radiologues</h3>
+                            <p>
+                                Une étude européenne publiée en 2025 montre qu'un algorithme de deep learning
+                                détecte le cancer du sein sur mammographie avec 10 % d'erreurs en moins que
+                                le double lecture humaine. Déploiement prévu dans 12 CHU français d'ici 2026.
+                            </p>
+                            <div class="pill-wrap">
+                                <span class="pill">IA médicale</span>
+                                <span class="pill">Radiologie</span>
+                                <span class="pill">Deep learning</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="actu-card">
+                        <div class="actu-icon">💊</div>
+                        <div class="actu-body">
+                            <div class="source-badge">Science · Avr. 2025</div>
+                            <h3>Médecine personnalisée — Le génome comme ordonnance</h3>
+                            <p>
+                                La pharmaco-génomique permet d'adapter les traitements au profil génétique
+                                du patient. En France, le Plan France Médecine Génomique 2025 vise à intégrer
+                                le séquençage systématique dans les protocoles oncologiques.
+                            </p>
+                            <div class="pill-wrap">
+                                <span class="pill">Génomique</span>
+                                <span class="pill">Oncologie</span>
+                                <span class="pill">Personnalisé</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="actu-card">
+                        <div class="actu-icon">🔒</div>
+                        <div class="actu-body">
+                            <div class="source-badge">CNIL · Mai 2025</div>
+                            <h3>Sécurité des données de santé — Le cadre HDS renforcé</h3>
+                            <p>
+                                La CNIL et l'ANS ont publié de nouvelles recommandations pour l'hébergement
+                                des données de santé (HDS). Les exigences en matière de chiffrement, de
+                                journalisation et de gestion des accès sont considérablement renforcées.
+                            </p>
+                            <div class="pill-wrap">
+                                <span class="pill">HDS</span>
+                                <span class="pill">RGPD</span>
+                                <span class="pill">Sécurité</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="actu-card">
+                        <div class="actu-icon">🧬</div>
+                        <div class="actu-body">
+                            <div class="source-badge">Futura Sciences · Juin 2025</div>
+                            <h3>Nanobiotechnologie — Des nano-robots pour cibler les tumeurs</h3>
+                            <p>
+                                Des chercheurs chinois et américains ont démontré l'efficacité de nano-robots
+                                d'ADN capables de cibler spécifiquement les cellules tumorales et d'y délivrer
+                                un médicament. Une percée vers une chimiothérapie sans effets secondaires.
+                            </p>
+                            <div class="pill-wrap">
+                                <span class="pill">Nanotechnologie</span>
+                                <span class="pill">Cancer</span>
+                                <span class="pill">ADN origami</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- ── Tendances ── -->
+            <section id="tendances" class="section container reveal">
+                <div class="section-head">
+                    <h2>Grandes tendances 2025 – 2026</h2>
+                </div>
+
+                <div class="grid two-cols">
+
+                    <article class="card">
+                        <div class="trend-badge hot">Révolutionnaire</div>
+                        <h3>IA générative pour la biologie</h3>
+                        <p>
+                            Après AlphaFold, une nouvelle génération d'IA (ESMFold, RoseTTAFold) prédit
+                            non seulement les structures protéiques mais aussi comment concevoir de nouvelles
+                            protéines de toutes pièces. C'est une révolution pour la biologie de synthèse
+                            et la conception de médicaments.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Protéines</span>
+                            <span class="pill">IA générative</span>
+                            <span class="pill">Biologie synthétique</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="trend-badge hot">Révolutionnaire</div>
+                        <h3>Médecine de précision &amp; génomique</h3>
+                        <p>
+                            Le coût du séquençage génomique complet est passé sous les 200 € en 2025.
+                            Ce seuil ouvre la voie à un dépistage génétique universel, à la prévention
+                            personnalisée et au traitement ciblé des maladies rares comme des cancers.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">NGS</span>
+                            <span class="pill">Génomique</span>
+                            <span class="pill">Maladies rares</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="trend-badge rising">En forte hausse</div>
+                        <h3>Interfaces cerveau–ordinateur (BCI)</h3>
+                        <p>
+                            Neuralink, BrainGate et d'autres projets ont réalisé des percées majeures
+                            en 2024-2025 : des patients paralysés contrôlent un ordinateur par la pensée.
+                            Les applications militaires, médicales et grand public se multiplient.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">BCI</span>
+                            <span class="pill">Neuralink</span>
+                            <span class="pill">Neuroprosthétique</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="trend-badge rising">En forte hausse</div>
+                        <h3>Santé numérique &amp; wearables médicaux</h3>
+                        <p>
+                            Les montres connectées mesurent désormais la glycémie, l'ECG et la saturation
+                            en O2 en continu. Les données générées nécessitent des infrastructures
+                            cloud sécurisées et conformes HDS — un enjeu direct pour les informaticiens SISR.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">IoMT</span>
+                            <span class="pill">Wearables</span>
+                            <span class="pill">Cloud HDS</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="trend-badge stable">Fondamental</div>
+                        <h3>Éthique &amp; sécurité des données biologiques</h3>
+                        <p>
+                            Les données génomiques sont les plus sensibles qui soient — elles concernent
+                            non seulement l'individu mais toute sa famille. Leur protection, leur anonymisation
+                            et leur gouvernance sont des défis majeurs pour les systèmes d'information de santé.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Éthique</span>
+                            <span class="pill">Anonymisation</span>
+                            <span class="pill">Gouvernance</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="trend-badge stable">Fondamental</div>
+                        <h3>Cloud &amp; Big Data en bioinformatique</h3>
+                        <p>
+                            Un seul génome humain pèse ~200 Go. Les analyses à grande échelle (biobanques,
+                            études GWAS) nécessitent des infrastructures HPC et cloud de grande capacité.
+                            AWS, Google Cloud et Azure proposent tous des services spécialisés en génomique.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Cloud</span>
+                            <span class="pill">HPC</span>
+                            <span class="pill">Big Data</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- ── Sources ── -->
+            <section id="sources" class="section container reveal">
+                <div class="section-head">
+                    <h2>Sources &amp; ressources</h2>
+                </div>
+
+                <div class="grid two-cols">
+                    <article class="card">
+                        <h3>Revues &amp; institutions scientifiques</h3>
+                        <ul class="sources-list">
+                            <li>
+                                <a href="https://www.nature.com/nbt/" target="_blank" rel="noreferrer">Nature Biotechnology</a>
+                                <span>Revue de référence</span>
+                            </li>
+                            <li>
+                                <a href="https://www.inserm.fr/" target="_blank" rel="noreferrer">INSERM</a>
+                                <span>Recherche française</span>
+                            </li>
+                            <li>
+                                <a href="https://www.cnrs.fr/" target="_blank" rel="noreferrer">CNRS</a>
+                                <span>Sciences &amp; technologies</span>
+                            </li>
+                            <li>
+                                <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" rel="noreferrer">NCBI / PubMed</a>
+                                <span>Base de données scientifiques</span>
+                            </li>
+                            <li>
+                                <a href="https://www.ebi.ac.uk/" target="_blank" rel="noreferrer">EMBL-EBI</a>
+                                <span>Bioinformatique européenne</span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Médias &amp; vulgarisation</h3>
+                        <ul class="sources-list">
+                            <li>
+                                <a href="https://www.technologyreview.com/topic/biotechnology/" target="_blank" rel="noreferrer">MIT Technology Review</a>
+                                <span>Analyse &amp; prospective</span>
+                            </li>
+                            <li>
+                                <a href="https://www.futura-sciences.com/sante/" target="_blank" rel="noreferrer">Futura Sciences</a>
+                                <span>Vulgarisation française</span>
+                            </li>
+                            <li>
+                                <a href="https://www.france.culture.fr/emissions/la-methode-scientifique" target="_blank" rel="noreferrer">La Méthode Scientifique</a>
+                                <span>Podcast France Culture</span>
+                            </li>
+                            <li>
+                                <a href="https://www.genomeweb.com/" target="_blank" rel="noreferrer">GenomeWeb</a>
+                                <span>Industrie génomique</span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Outils bioinformatiques suivis</h3>
+                        <ul class="sources-list">
+                            <li>
+                                <a href="https://alphafold.ebi.ac.uk/" target="_blank" rel="noreferrer">AlphaFold Database</a>
+                                <span>Structures de protéines</span>
+                            </li>
+                            <li>
+                                <a href="https://blast.ncbi.nlm.nih.gov/" target="_blank" rel="noreferrer">BLAST / NCBI</a>
+                                <span>Alignement de séquences</span>
+                            </li>
+                            <li>
+                                <a href="https://www.bioconductor.org/" target="_blank" rel="noreferrer">Bioconductor (R)</a>
+                                <span>Analyse génomique</span>
+                            </li>
+                            <li>
+                                <a href="https://biopython.org/" target="_blank" rel="noreferrer">Biopython</a>
+                                <span>Bioinformatique Python</span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Réglementation &amp; sécurité santé</h3>
+                        <ul class="sources-list">
+                            <li>
+                                <a href="https://www.cnil.fr/fr/sante" target="_blank" rel="noreferrer">CNIL — Santé</a>
+                                <span>Données de santé &amp; RGPD</span>
+                            </li>
+                            <li>
+                                <a href="https://esante.gouv.fr/" target="_blank" rel="noreferrer">ANS — e-Santé</a>
+                                <span>Hébergement HDS</span>
+                            </li>
+                            <li>
+                                <a href="https://www.has-sante.fr/" target="_blank" rel="noreferrer">Haute Autorité de Santé</a>
+                                <span>Référentiels numériques</span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© <span id="year"></span> Naila Hasnaoui — Veille technologique Biotechnologie &amp; Informatique | BTS SIO SISR</p>
+            </div>
+        </footer>
+
+        <button class="back-top" id="backTopBtn" type="button" aria-label="Remonter en haut">↑</button>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+        <script src="script.js?v=20260509"></script>
+    </body>
+</html>

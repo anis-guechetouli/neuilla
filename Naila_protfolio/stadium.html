@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Stadium Company — 10 Missions | Hasnaoui Naila</title>
+        <meta
+            name="description"
+            content="10 missions Stadium Company réalisées par Naila Hasnaoui — BTS SIO SISR. Infrastructure réseau, sécurité, Wi-Fi, supervision, helpdesk."/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;600;700&display=swap"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css?v=20260509"/>
+    </head>
+    <body>
+        <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+        <div class="bg-grid" aria-hidden="true"></div>
+
+        <header class="site-header">
+            <div class="container nav-wrap">
+                <a href="index.html#home" class="brand">
+                    <span class="brand-mark">NH</span>
+                    <span class="brand-text">Hasnaoui Naila</span>
+                </a>
+                <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">Menu</button>
+                <nav class="nav" id="siteNav">
+                    <a href="index.html#profil">Profil</a>
+                    <a href="index.html#parcours">Parcours</a>
+                    <a href="index.html#projets">Projets</a>
+                    <a href="veille.html">Veille technologique</a>
+                    <a href="entreprise.html">Entreprise</a>
+                    <a href="e5.html">E5</a>
+                    <a href="e6.html">E6</a>
+                    <a href="index.html#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <!-- ── Hero ── -->
+            <section class="hero container reveal subpage-hero">
+                <p class="eyebrow">BTS SIO SISR — Épreuve E5</p>
+                <h1>Stadium Company</h1>
+                <p class="lead">
+                    10 missions réalisées pour StadiumCompany — entreprise fictive multi-sites du référentiel BTS SIO. Chaque mission couvre un domaine technique du métier d'administrateur systèmes et réseaux.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-ghost" href="e5.html">Retour E5</a>
+                    <a class="btn btn-ghost" href="index.html#projets">Portfolio</a>
+                </div>
+                <div class="hero-meta">
+                    <span class="status-dot">10 missions</span>
+                    <span class="status-dot">SISR — Réseau &amp; Sécurité</span>
+                    <span class="status-dot">IRIS — Paris 17e</span>
+                </div>
+            </section>
+
+            <!-- ── Présentation Stadium Company ── -->
+            <section class="section container reveal">
+                <article class="stadium-intro">
+                    <div>
+                        <h3>Présentation de StadiumCompany</h3>
+                        <p>
+                            StadiumCompany est une entreprise fictive multi-sites utilisée dans le cadre du BTS SIO SISR.
+                            Elle gère plusieurs stades et espaces sportifs nécessitant une infrastructure informatique
+                            complexe : réseau multi-sites, accès sécurisés, supervision et services aux utilisateurs.
+                        </p>
+                        <p style="margin-top:0.6rem;">
+                            En tant que technicienne réseau &amp; systèmes, j'ai réalisé 10 missions couvrant l'ensemble
+                            du référentiel de compétences E5.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Contexte technique</h3>
+                        <ul>
+                            <li>Infrastructure multi-sites reliés par VPN</li>
+                            <li>Réseau segmenté en VLANs (personnel, public, DMZ)</li>
+                            <li>Serveurs Windows Server 2019 &amp; Linux Debian</li>
+                            <li>Équipements Cisco (routeurs, switches manageable)</li>
+                            <li>Pare-feu PfSense avec règles de filtrage</li>
+                            <li>Wi-Fi d'entreprise sécurisé (RADIUS / WPA2-Entreprise)</li>
+                            <li>Supervision centralisée Nagios XI</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+
+            <!-- ── 10 Missions ── -->
+            <section class="section container reveal">
+                <div class="section-head">
+                    <h2>Les 10 missions</h2>
+                </div>
+
+                <div class="missions-grid">
+
+                    <!-- Mission 1 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M01</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Mise en place de l'infrastructure réseau multi-sites</h3>
+                        <p>
+                            Conception et déploiement de l'architecture réseau de StadiumCompany. Mise en place
+                            du plan d'adressage IP, création des VLANs (Personnel, Public, DMZ, Management) et
+                            configuration du routage inter-VLAN sur les équipements Cisco.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Cisco IOS</span>
+                            <span class="pill">VLAN</span>
+                            <span class="pill">Routage</span>
+                            <span class="pill">Plan d'adressage</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-01.pdf" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 2 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M02</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Sécurisation du réseau avec PfSense &amp; DMZ</h3>
+                        <p>
+                            Installation et configuration d'un pare-feu PfSense en coupure entre Internet et le
+                            réseau interne. Création d'une DMZ pour les serveurs exposés, définition des règles
+                            de filtrage et mise en place du NAT.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">PfSense</span>
+                            <span class="pill">DMZ</span>
+                            <span class="pill">Firewall</span>
+                            <span class="pill">NAT</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-02.docx" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 3 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M03</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Déploiement Windows Server — Active Directory &amp; DNS/DHCP</h3>
+                        <p>
+                            Installation d'un contrôleur de domaine Windows Server 2019. Création de l'annuaire
+                            Active Directory, mise en place du DNS interne, du serveur DHCP et configuration
+                            des GPO de sécurité pour les postes utilisateurs.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Windows Server</span>
+                            <span class="pill">Active Directory</span>
+                            <span class="pill">DNS / DHCP</span>
+                            <span class="pill">GPO</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-03.docx" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 4 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M04</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Wi-Fi sécurisé — RADIUS &amp; WPA2-Entreprise</h3>
+                        <p>
+                            Déploiement d'un réseau Wi-Fi d'entreprise avec authentification 802.1X via un
+                            serveur RADIUS (FreeRADIUS). Configuration des points d'accès en mode WPA2-Entreprise
+                            et séparation du réseau invités sur un SSID isolé avec portail captif.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">RADIUS</span>
+                            <span class="pill">802.1X</span>
+                            <span class="pill">WPA2-Entreprise</span>
+                            <span class="pill">Portail captif</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-04.pdf" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 5 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M05</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Accès distant sécurisé — SSH &amp; VPN site-à-site</h3>
+                        <p>
+                            Mise en place d'un accès SSH sécurisé aux serveurs Linux (authentification par clé,
+                            désactivation root). Configuration d'un VPN site-à-site IPsec entre les deux sites
+                            de StadiumCompany pour interconnecter les réseaux locaux.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">SSH</span>
+                            <span class="pill">VPN IPsec</span>
+                            <span class="pill">Clé publique</span>
+                            <span class="pill">Linux</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-05.docx" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 6 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M06</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Supervision du réseau — Nagios XI</h3>
+                        <p>
+                            Installation et configuration de Nagios XI pour la supervision de l'infrastructure.
+                            Ajout des hôtes et services à surveiller (switches, serveurs, pare-feu), configuration
+                            des seuils d'alerte et mise en place des notifications par email.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Nagios XI</span>
+                            <span class="pill">SNMP</span>
+                            <span class="pill">Supervision</span>
+                            <span class="pill">Alertes</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-06.docx" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 7 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M07</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Helpdesk &amp; gestion du parc — GLPI / OCS Inventory</h3>
+                        <p>
+                            Déploiement de la solution GLPI couplée à OCS Inventory pour la gestion du parc
+                            informatique et le suivi des tickets. Configuration des catégories d'incidents,
+                            des SLA et de l'inventaire automatique des équipements.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">GLPI</span>
+                            <span class="pill">OCS Inventory</span>
+                            <span class="pill">Ticketing</span>
+                            <span class="pill">ITIL</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-07.pdf" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 8 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M08</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Haute disponibilité — HSRP &amp; redondance réseau</h3>
+                        <p>
+                            Mise en place de la haute disponibilité sur les équipements Cisco via le protocole
+                            HSRP (Hot Standby Router Protocol). Configuration d'un routeur actif et d'un routeur
+                            de secours pour assurer la continuité de service en cas de panne.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">HSRP</span>
+                            <span class="pill">Cisco</span>
+                            <span class="pill">Haute disponibilité</span>
+                            <span class="pill">Redondance</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-08.pdf" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 9 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M09</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Messagerie professionnelle — Zimbra</h3>
+                        <p>
+                            Installation et configuration du serveur de messagerie Zimbra sur Debian.
+                            Création des comptes utilisateurs, configuration du domaine MX, mise en place
+                            des règles anti-spam et des politiques de rétention des emails.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">Zimbra</span>
+                            <span class="pill">Linux Debian</span>
+                            <span class="pill">DNS MX</span>
+                            <span class="pill">Anti-spam</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-09.pdf" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                    <!-- Mission 10 -->
+                    <article class="mission-card">
+                        <div class="mission-card-top">
+                            <span class="mission-num">M10</span>
+                            <span class="mission-status done">Réalisée</span>
+                        </div>
+                        <h3>Automatisation &amp; scripts PowerShell</h3>
+                        <p>
+                            Développement de scripts PowerShell pour automatiser les tâches d'administration
+                            récurrentes : création massive de comptes Active Directory, génération de rapports
+                            d'activité, sauvegarde des configurations et déploiement des mises à jour.
+                        </p>
+                        <div class="pill-wrap">
+                            <span class="pill">PowerShell</span>
+                            <span class="pill">Active Directory</span>
+                            <span class="pill">Automatisation</span>
+                            <span class="pill">Scripting</span>
+                        </div>
+                        <a class="mission-doc-link" href="mission/mission-10.docx" target="_blank" rel="noreferrer">
+                            Voir la mission
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- ── Retour E5 ── -->
+            <section class="section container reveal">
+                <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; padding:1.5rem; background:var(--paper); border:1px solid var(--line); border-radius:1.1rem; box-shadow:var(--shadow);">
+                    <div>
+                        <h3 style="margin:0 0 0.3rem;">Tableau de synthèse E5</h3>
+                        <p style="margin:0; font-size:0.87rem;">Retrouve le tableau récapitulatif des compétences mobilisées sur la page E5.</p>
+                    </div>
+                    <a class="btn btn-primary" href="e5.html#synthese">Voir le tableau de synthèse</a>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© <span id="year"></span> Naila Hasnaoui — Stadium Company | BTS SIO SISR</p>
+            </div>
+        </footer>
+
+        <button class="back-top" id="backTopBtn" type="button" aria-label="Remonter en haut">↑</button>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+        <script src="script.js?v=20260509"></script>
+    </body>
+</html>
